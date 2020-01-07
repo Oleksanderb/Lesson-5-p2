@@ -1,0 +1,17 @@
+package L5p2;
+import java.util.Random;
+public class Main {
+	public static void main(String[] args) {
+	
+		int min = 1;
+		int max = 2;
+		int diff = max - min;
+		for(int b=0; b<10; b++) {
+		Random random = new Random();
+		int i = random.nextInt(diff + 1);
+		i += min;
+		if (i==1) {
+		System.out.println("orel");}
+		else {System.out.println("reshka");}
+		}
+	}}
